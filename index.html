@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Jha Bhaskar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">ARNAV<span>.PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h3>Hello, I am</h3>
+                <h1>Arnav Jha Bhaskar</h1>
+                <p>Computer Science & Engineering Student | Developer</p>
+                
+                <div class="hero-socials">
+                    <a href="https://github.com/codeskar-07" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arnav-jha-bhaskar-48b1833a0?locale=en_US" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arnavkumar@gmail.com" target="_blank" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+917079667445" title="Call Me"><i class="fa-solid fa-phone"></i></a>
+                </div>
+
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.JPG" alt="Arnav Jha Bhaskar" class="animated-profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am an enthusiastic Diploma student in Computer Science & Engineering with a strong foundation in core computer science concepts, database environments, and software development frameworks.</p>
+                <p>I love building clean, functional user interfaces and exploring backend logical workflows, always aiming to write secure and optimized code on my favorite Linux environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-java"></i> <h3>Java</h3></div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i> <h3>SQL & DBMS</h3></div>
+            <div class="skill-card"><i class="fa-brands fa-html5"></i> <h3>HTML5</h3></div>
+            <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> <h3>CSS3</h3></div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i> <h3>JavaScript</h3></div>
+            <div class="skill-card"><i class="fa-brands fa-linux"></i> <h3>Linux / Ubuntu</h3></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Pushdown Automaton (PDA) Visualizer</h3>
+                <p>A web-based graphical simulation tool built using JavaScript to visually trace and demonstrate the step-by-step operations of a PDA on custom input strings.</p>
+                <div class="project-tags"><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+            </div>
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A clean, responsive, single-page application built completely from scratch to showcase my skills, projects, and educational journey.</p>
+                <div class="project-tags"><span>HTML</span> <span>CSS</span> <span>JS Code</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:arnavkumar5779@gmail.com">arnavkumar5779@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+917079667445">+91 7079667445</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arnav Jha Bhaskar. Built with passion on Ubuntu.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
